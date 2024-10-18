@@ -1,0 +1,17 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+}
